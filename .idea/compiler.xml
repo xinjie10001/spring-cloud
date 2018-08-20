@@ -13,5 +13,12 @@
         <module name="spring-cloud-producer2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud" target="1.8" />
+      <module name="spring-cloud-consumer" target="1.8" />
+      <module name="spring-cloud-eureka" target="1.8" />
+      <module name="spring-cloud-producer" target="1.8" />
+      <module name="spring-cloud-producer2" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
